@@ -1,5 +1,26 @@
+body {
+  background: linear-gradient(-90deg, #DAE2F8, #D6A4A4);
+}
+
+
 .page-header {
   text-align: center;
+  background-color: transparent;
+}
+
+small {
+  font-style: italic;
+  font-size: 10px;
+}
+
+.about-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#about-paragraph {
+  line-height: 200%;
 }
 
 .page-footer {
@@ -12,6 +33,29 @@
   width:100%;
 }
 
-.breadcrumb{
-  background-color: white;
+.caps {
+  text-transform: uppercase;
+  color: green;
+}
+
+.list {
+  list-style: none;
+  line-height: 200%;
+}
+
+.crumb li{
+  display: inline;
+  list-style: none;
+  font-size: 20px;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.questionDetails {
+  padding-bottom: 20px;
+}
+.replies {
+  border-top: 1px solid;
 }
